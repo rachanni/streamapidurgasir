@@ -25,6 +25,8 @@ public class MinMaxMethodDemo {
 //		Integer min= originalList.stream().min((i1, i2) -> -i1.compareTo(i2)).get();
 		System.out.println("min element in list: "+ min);
 		
+		
+//		find the max element in the list
 		Integer max= originalList.stream().max((i1, i2) -> i1.compareTo(i2)).get();
 		System.out.println("max element in the list: "+max);
 	}

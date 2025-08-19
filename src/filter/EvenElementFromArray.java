@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
-//an array is given find the element from it.
+//a list is given find the even element from it.
 public class EvenElementFromArray {
 
 	public static void main(String[] args) {
